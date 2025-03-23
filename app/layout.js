@@ -23,11 +23,12 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-
-        <div  className="w-[100vw] px-76 fixed top-0 left-0 right-0">
+        {/* HEADER SECTION */}
+        <div className="w-[100vw] px-76 fixed top-0 left-0 right-0">
           <Header />
         </div>
 
+        {/* MAIN SECTION */}
         <div className="px-76 pt-[8vh]">
           {children}
         </div>

@@ -18,6 +18,8 @@ export default function Home() {
   return (
     <div className=" bg-[#F6EEE7]">
 
+      {/* HERO  SECTION */}
+      
       <div className="flex items-center justify-center pt-15 pb-10 gap-30">
 
         <div className="flex justify-start items-start flex-col">
@@ -38,7 +40,7 @@ export default function Home() {
 
 
 
-
+      {/* MARQUEE SECTION */}
 
 
       <Marquee pauseOnHover={true} speed={50} gradient={false} className="py-10 flex  items-center justify-center ">
@@ -52,6 +54,8 @@ export default function Home() {
         ))}
       </Marquee>
 
+
+      {/* BOTTOM SECTION */}
 
       <div className="flex flex-row-reverse items-start justify-end py-5 gap-35">
 
